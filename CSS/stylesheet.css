@@ -1,0 +1,106 @@
+/* css 초기화. */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.3rem; }
+h4 { font-size: 1rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 1rem; }
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, div {
+    line-height: 2;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* 초기화 완료.*/
+
+
+body {
+  background-color: #ff8aa9;
+}
+
+.header .subject {
+  background-color: #b4ec76;
+  margin: 20px;
+  text-align: center;
+}
+
+.contents {
+  overflow: hidden;
+}
+
+.section {
+  overflow: hidden;
+}
+
+.section .service {
+  background-color: #29bb3c;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  /* display: inline-block; */
+  text-align: center;
+  float: left;
+}
+
+.section .form {
+  background-color: #7dffe0;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  /* display: inline-block; */
+  text-align: center;
+  float: left;
+}
+
+.section .notice {
+  background-color: #a16aff;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  /* display: inline-block; */
+  text-align: center;
+  float: left;
+}
+
+.section .calculator {
+  background-color: #7265fe;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  /* display: inline-block; */
+  text-align: center;
+  float: left;
+}
+
+.section .epilogue {
+  background-color: #0b84c8;
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  /* display: inline-block; */
+  text-align: center;
+  float: left;
+}
+
+.footer {
+  background-color: #918a86;
+}
